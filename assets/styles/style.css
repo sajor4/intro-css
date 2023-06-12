@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Fira+Sans:wght@300;400;700&display=swap');
+
+
+body {
+    background-color: aqua;
+    color: sienna;
+box-sizing: border-box;
+font-family: 'Fira Sans', sans-serif;
+}
+
+.second-title {
+    background-color: red;
+    font-family: 'Bowlby One SC', cursive;
+
+}
+
+.white-font {
+    color: aliceblue;
+}
+
+p {
+    color: black;
+    font-weight: 300;
+}
+
+#first-paragraph {
+    background-color: peru;
+}
+
+.para-ex {
+    height: 80px;
+    border: solid;
+    overflow: auto;
+}
+
+.lorem1 {
+    border: 15px solid pink;
+    border-radius: 15px 50px 5px 30px;
+    height: 300px;
+}
+
+/* .empty-div {
+    border: 1px solid white;
+    height: 400px;
+    background-image: url("../images/two-french-bulldog.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.border{
+    border: 2px solid white;
+}
+
+.example-div {
+    height: 20px;
+    background-color: darkorange;
+    width: 500px;
+    display: inline;
+}
+.example-img {
+    width: 300px;
+    display: inline-block;
+}
+
+.example-a {
+    width: 300px;
+    display: inline-block;
+}
