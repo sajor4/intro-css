@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Fira+Sans:wght@300;400;700&display=swap');
 
-
 body {
     background-color: aqua;
     color: sienna;
@@ -66,3 +65,26 @@ p {
     width: 300px;
     display: inline-block;
 }
+
+
+/* positions */
+
+.scatola {
+    border: 2px solid red;
+    height: 100px;
+}
+
+.s-a {
+background-color: blue;
+}
+
+.s-b {background-color: gray;}
+.s-c {background-color: green;}
+.s-d {background-color: peru;}
+.s-e {background-color: teal;}
+.s-f {background-color: firebrick;}
+.s-g {background-color: lightgoldenrodyellow;}
+.s-h {background-color: khaki;}
+.s-i {background-color: saddlebrown;}
+.s-l {background-color: darkorchid;}
+
