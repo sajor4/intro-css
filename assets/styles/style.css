@@ -3,11 +3,13 @@
 body {
     background-color: aqua;
     color: sienna;
-box-sizing: border-box;
-font-family: 'Fira Sans', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.second-title {
+/* .second-title {
     background-color: red;
     font-family: 'Bowlby One SC', cursive;
 
@@ -38,15 +40,15 @@ p {
     height: 300px;
 }
 
-/* .empty-div {
+.empty-div {
     border: 1px solid white;
     height: 400px;
     background-image: url("../images/two-french-bulldog.png");
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 
-.border{
+.border {
     border: 2px solid white;
 }
 
@@ -56,6 +58,7 @@ p {
     width: 500px;
     display: inline;
 }
+
 .example-img {
     width: 300px;
     display: inline-block;
@@ -64,27 +67,74 @@ p {
 .example-a {
     width: 300px;
     display: inline-block;
-}
+} */
 
 
-/* positions */
+/* positions------------------------------------------------------------------------------------------------------------- */
 
 .scatola {
     border: 2px solid red;
-    height: 100px;
+    height: 200px;
 }
 
 .s-a {
-background-color: blue;
+    background-color: blue;
 }
 
-.s-b {background-color: gray;}
-.s-c {background-color: green;}
-.s-d {background-color: peru;}
-.s-e {background-color: teal;}
-.s-f {background-color: firebrick;}
-.s-g {background-color: lightgoldenrodyellow;}
-.s-h {background-color: khaki;}
-.s-i {background-color: saddlebrown;}
-.s-l {background-color: darkorchid;}
+.s-b {
+    background-color: gray;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
 
+.s-c {
+    background-color: green;
+    position: sticky;
+    bottom: 0;
+}
+
+.s-d {
+    background-color: peru;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 50px;
+}
+
+.s-e {
+    background-color: teal;
+    position: relative;
+}
+
+.s-f {
+    background-color: firebrick;
+    width: 200px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.s-g {
+    background-color: lightgoldenrodyellow;
+    position: fixed;
+    width: 400px;
+    height: 100px;
+    top: 10px;
+    right: 10px;
+}
+
+.s-h {
+    background-color: khaki;
+}
+
+.s-i {
+    background-color: saddlebrown;
+}
+
+.s-l {
+    background-color: darkorchid;
+    
+}
